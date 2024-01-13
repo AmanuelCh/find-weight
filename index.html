@@ -14,6 +14,29 @@
     <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    <h1>Find Weight</h1>
+    <div class="container">
+      <h1 class="app--title">Find Weight</h1>
+      <p class="app--subtitle">
+        Enter your weight on Earth and see how much you weigh on different
+        planets of our solar system.
+      </p>
+
+      <!-- input area in kgs -->
+      <div class="input-field">
+        <label for="weight">Enter Your Weight(kg):</label>
+        <input
+          type="number"
+          id="weight"
+          class="input-weight"
+          placeholder="Weight"
+        />
+      </div>
+      <button class="calculate-weight">Calculate Weight</button>
+
+      <!-- result container -->
+      <div class="result"></div>
+    </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
